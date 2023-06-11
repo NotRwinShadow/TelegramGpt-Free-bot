@@ -26,7 +26,7 @@ def handle_help(message):
 @bot.message_handler(commands=['start'])
 def handle_start(message):
   bot.send_message(
-    message.chat.id, "Hi Welcome to robot" + ' ' +
+    message.chat.id, "Hi, Welcome to robot" + ' ' +
     str(message.chat.first_name) + ' ' + '\u2764' + '\n \n' +
     ' Send /help to How to use ' + '\n \n ' + 'https://github.com/NotRwinShadow' )
 
@@ -53,7 +53,7 @@ def handle_chat(message):
 # Handle incoming messages
 @bot.message_handler(func=lambda message: True)
 def handle_message(message):
-    bot.send_message(message.chat.id, "Sended Message is not true use /help for help")
+    bot.send_message(message.chat.id, "Message is not true use /help for help")
 
 
 # Start the bot
