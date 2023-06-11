@@ -1,6 +1,6 @@
 # TelegramGpt-Free-bot
 Python code can Handle free ChatGpt using Api ( Not your Api ) <br/>
-Pre-built robot for **FREE** --> <a href="t.me/rwingptbot" value="text" > @RwinGptbot <a/>
+Pre-built robot for **FREE** --> <a href="https://t.me/rwingptbot" value="text" > @RwinGptbot <a/>
 
 # What this BOT can do?
 
